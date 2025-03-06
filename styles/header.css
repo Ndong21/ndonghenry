@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-left: 80px;
+    margin-right: 90px;
+}
+
+.logo {
+    flex: 1;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(48,165,210);
+    cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    width: 500px;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav-bar a:hover {
+    color: rgb(48,165,210)
+}
+
+.nav-bar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
