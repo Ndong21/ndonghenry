@@ -33,12 +33,38 @@
     color: rgb(48,165,210)
 }
 
-.nav-bar button {
-    background-color: black;
+.connect button {
     color: white;
     border: none;
-    padding: 10px 18px;
+    padding: 12px 18px;
     border-radius: 8px;
     font-weight: 700;
     cursor: pointer;
+    background-color: black;
 }
+
+.hambuger-menu img {
+    width: 25px;
+    
+}
+.hambuger-menu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .connect, nav {
+        display: none;
+    }
+    .header {
+        margin-left: 27px;
+        display: flex;
+        justify-content: space-between;
+        width: 94%;
+    }
+    .hambuger-menu {
+        display: block;
+
+    }
+
+}
+
