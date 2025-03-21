@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top right, #3793eb, #174fa8);
+  background-repeat: no-repeat;
+}
+
+.heading {
+  color: White;
+  text-align: center;
+  margin: 10px auto;
+}
+.timer__controls {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 4px auto;
+}
+
+input {
+  padding: 1.5em;
+  width: 100%;
+  margin-top: 6px;
+  border: none;
+}
+
+.timer__button {
+  margin-top: 6px;
+  padding: 0.9em;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.time-input {
+  font-size: 0.9rem;
+}
+
+.time-input::placeholder {
+  font-size: 0.9rem;
+}
+
+.display {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.display__time-left {
+  font-size: 60px;
+  letter-spacing: 12px;
+}
+
+.display__end-time {
+  font-size: 20px;
+  margin-top: 30px;
+}

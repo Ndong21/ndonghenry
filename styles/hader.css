@@ -1,0 +1,7 @@
+.header {
+  background-color: red;
+  display: flex;
+}
+.hambuger-menu {
+  display: none;
+}
