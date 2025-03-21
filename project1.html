@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML5 Canvas</title>
+  <link rel="stylesheet" href="styles/project1.css">
 </head>
 <body>
-  <H1>Click and Drag to experience Magic</H1>
+  <h1 class="title">Click and Drag to experience MAGIC</h1>
   <canvas id="draw" width="800" height="800"></canvas>
   <script>
     const canvas = document.querySelector('#draw');
@@ -65,10 +66,6 @@
     canvas.addEventListener('mouseout', () => isDrawing = false);
 
   </script>
-  <style>
-    html, body {
-      margin:0;
-    }
-  </style>
+
 </body>
 </html>
