@@ -1,0 +1,40 @@
+.main-project-heading {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: rgb(48,165,210);
+
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  /* align-items: center;
+  justify-content: space-around; */
+  margin-left: 23px;
+  margin-right: 23px;
+
+}
+
+.project-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 30px;
+  text-align: center;
+}
+
+.project{
+  border: 3px solid rgb(96,96,96);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.projects img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    display: block;
+  }
+}
